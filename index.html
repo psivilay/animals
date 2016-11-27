@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Learning About Animals</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="intro">
+        <h1>Peter's Animal Learning Center</h1>
+        <h2>Which animal would you like to learn about today?</h2>
+
+        <h3>Click on an animal...<h3>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <a href="honey-badger.html"><img src="img/badger.jpg" alt="A picture of a honey-badger."></a>
+        </div>
+      <div class="col-lg-4">
+        <a href="dolphin.html"><img src="img/dolphin.jpg" alt="A picture of a dolphin."></a>
+      </div>
+      <div class="col-lg-4">
+        <a href="fire-ant.html"><img src="img/ant.jpg" alt="A picture of a fire ant."></a>
+      </div>
+
+      <div class="intro">
+        <h1>OR</h1>
+        <h3>Select one below</h3>
+      </div>
+
+      <form id="pick-animal">
+        <select class="form-control" id="animal">
+          <option value="blank">Please select here</option>
+          <option value="honey-badger">Honey Badger</option>
+          <option value="dolphin">Dolphin</option>
+          <option value="fire-ant">Fire Ant</option>
+        </select>
+        <button class="submit" type="btn">Submit</button>
+      </form>
+
+
+
+    </div>
+  </body>
+</html>
