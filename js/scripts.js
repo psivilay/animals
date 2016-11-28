@@ -4,9 +4,16 @@ $(document).ready(function() {
     var animal = $("#animal").val();
 
     if (animal === "honey-badger") {
-      alert("honey badger!");
+      $("#honey-badger-info").show();
+      $("#dolphin-info, #fire-ant-info").hide();
+    } else if (animal === "dolphin") {
+      $("#dolphin-info").show();
+      $("#honey-badger-info, #fire-ant-info").hide();
+    } else if (animal === "fire-ant") {
+      $("#fire-ant-info").show();
+      $("#honey-badger-info, #dolphin-info").hide();
     } else {
-      alert("select an animal please!");
+      alert("Please select an animal or insect!");
     }
   });
 });
